@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="Tìm kiêm sinh viên"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/add"
+        android:title="Thêm sinh viên"
+        android:icon="@drawable/person_add"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/lichhoc"
+        android:title="Lịch học"/>
+    <item
+        android:id="@+id/bangdiem"
+        android:title="Bảng điểm"/>
+    <item
+        android:id="@+id/diemdanh"
+        android:title="Điểm danh"/>
+    <item
+        android:id="@+id/dangxuat"
+        android:title="Đăng xuất"/>
+
+
+</menu>

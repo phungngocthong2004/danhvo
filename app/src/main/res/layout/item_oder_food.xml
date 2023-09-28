@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgfood_oder"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txtfood_oder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:textColor="#00BCD4"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btntru"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/baseline_arrow_back_ios_new_24" />
+
+        <TextView
+            android:id="@+id/txtsl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btncong"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/baseline_arrow_forward_ios_24" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnoder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Đặt"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

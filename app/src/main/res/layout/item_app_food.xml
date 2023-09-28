@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgfood"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/txtfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#03A9F4"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Đặt"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:backgroundTint="#00BCD4"
+            android:id="@+id/btnoder"/>
+    </LinearLayout>
+
+</LinearLayout>
